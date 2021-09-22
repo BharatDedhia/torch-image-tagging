@@ -1,5 +1,7 @@
-/Scripts
-/share
+Scripts/
+share/
+Lib/
+pyenv.cfg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
