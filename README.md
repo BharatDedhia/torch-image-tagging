@@ -56,14 +56,16 @@ Various components that exist in the navigation
 
 ### Mentors:
 Irfan Siddavatam ( irfansiddavatam@somaiya.edu )<br>
-Ashwini Dalvi ( ashwinidalvi@somaiya.edu )
+Ashwini Dalvi ( ashwinidalvi@somaiya.edu )<br>
+Hetul Mehta ( @somaiya.edu )<br>
+Burhan Plumber ( @somaiya.edu )
 
 ### Members:
-| Sr No. | Name     | e-mail         | git-profile |
-| ------ | -------- | -------------- | ----------- |
-| 1.     | Person 1 | p1@somaiya.edu | p1          |
-| 2.     | Person 2 | p2@somaiya.edu | p2          |
-| 3.     | Person 3 | p3@somaiya.edu | p3          |
-| 4.     | Person 4 | p4@somaiya.edu | p4          |
-| 5.     | Person 5 | p5@somaiya.edu | p5          |
-| 6.     | Person 6 | p6@somaiya.edu | p6          |
+| Sr No. | Name            | E-mail                      | Git-Profile                     |
+| ------ | --------------- | --------------------------- | ------------------------------- |
+| 1.     | Bharat Dedhia   | bharat.dedhia@somaiya.edu   | https://github.com/BharatDedhia |
+| 2.     | Hetvi Shah      | hetvi.shah6@somaiya.edu     | https://github.com/Hetvishah24  |
+| 3.     | Ankit Jha       | jha.an@somaiya.edu          | https://github.com/AnkitJha06   |
+| 4.     | Preeti Shah     | preeti.shah@somaiya.edu     | https://github.com/PreetiShah09 |
+| 5.     | Siddhant Chopda | siddhant.chopda@somaiya.edu | https://github.com/siddhant7890 |
+| 6.     | Riddhi Gandhi   | riddhi.ng@somaiya.edu       |                                 |
