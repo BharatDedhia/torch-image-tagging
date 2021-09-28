@@ -55,10 +55,10 @@ Various components that exist in the navigation
 ## Team
 
 ### Mentors:
-Irfan Siddavatam ( irfansiddavatam@somaiya.edu )<br>
-Ashwini Dalvi ( ashwinidalvi@somaiya.edu )<br>
-Hetul Mehta ( @somaiya.edu )<br>
-Burhan Plumber ( @somaiya.edu )
+Irfan Siddavatam [ irfansiddavatam@somaiya.edu ]<br>
+Ashwini Dalvi [ ashwinidalvi@somaiya.edu ]<br>
+Hetul Mehta [ hetul.mehta@somaiya.edu ]<br>
+Burhan Plumber [ b.plumber@somaiya.edu ]
 
 ### Members:
 | Sr No. | Name            | E-mail                      | Git-Profile                     |
