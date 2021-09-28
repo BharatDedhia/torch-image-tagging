@@ -68,4 +68,4 @@ Burhan Plumber ( @somaiya.edu )
 | 3.     | Ankit Jha       | jha.an@somaiya.edu          | https://github.com/AnkitJha06   |
 | 4.     | Preeti Shah     | preeti.shah@somaiya.edu     | https://github.com/PreetiShah09 |
 | 5.     | Siddhant Chopda | siddhant.chopda@somaiya.edu | https://github.com/siddhant7890 |
-| 6.     | Riddhi Gandhi   | riddhi.ng@somaiya.edu       |                                 |
+| 6.     | Riddhi Gandhi   | riddhi.ng@somaiya.edu       | http://github.com/Riddhi-Gandhi |
