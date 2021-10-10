@@ -5,8 +5,9 @@ from flask import Flask, render_template, jsonify, request
 import nltk
 nltk.download('wordnet')
 from nltk.corpus import wordnet
+from os import path
 
-app = Flask(__name__) 
+app = Flask(__name__, static_folder=path.join("..","static")) 
 from PIL import Image
 model = models.resnet50(pretrained = True)
 model.eval()
@@ -25,13 +26,14 @@ transform = transforms.Compose([
  std=[0.229, 0.224, 0.225]                  
  )])
 
-def get_tags(path):
-    img = Image.open(path).convert('RGB')
+def get_tags(img_file):
+    img = Image.open(img_file).convert('RGB')
     img_t = transform(img)
     batch_t = torch.unsqueeze(img_t, 0)
     out = model(batch_t)
 
-    with open("./static/files/imagenet_classes.txt") as f:
+    classes_file = path.join("static","files","imagenet_classes.txt")
+    with open(classes_file) as f:
         classes = [line.strip() for line in f.readlines()]
 
     _, index = torch.max(out, 1)
@@ -59,10 +61,10 @@ def get_tags(path):
 def success():  
     if request.method == 'POST':  
         f = request.files['file']
-        path = "./static/images/"+f.filename
-        f.save(path)
-        tags = get_tags(path)
-        return render_template("success.html", name = f.filename, tags = tags, path = path)
+        img_file = path.join("static","images",f.filename)
+        f.save(img_file)
+        tags = get_tags(img_file)
+        return render_template("success.html", name = f.filename, tags = tags, path = img_file)
   
 
 if __name__ == '__main__':  
