@@ -10,8 +10,8 @@ There are already popular models that will allow to find and determine what obje
 - [Usage](#usage)
   - [Installation](#installation)
 - [Strengths And Weaknesses](#Strengths-And-Weaknesses)
-  - Strengths(#Strengths)
-  - Weaknesses(#Weaknesses)
+  - Strengths(#strengths)
+  - Weaknesses(#weaknesses)
 - [Team](#team)
   - [Mentors:](#mentors)
   - [Members:](#members)
@@ -68,15 +68,15 @@ Next, we imported NTLK library and installed Wordnet to get a collection of word
 We can here summaries some of the strength and weaknesses of our project.
 
 ### Strengths:
-•	Human error and bias are minimized (fewer decisions are required by the user).
-•	More uniform classes are produced as output.
-•	Spectrally distinct classes present in the data may be revealed which were not initially apparent to the user.
-•	Our project goes one step further and has an added advantage over other pre-trained models; In the output our model gives out words related to object in the image instead of just stating the obvious.
+•	Human error and bias are minimized (fewer decisions are required by the user).<br>
+•	More uniform classes are produced as output.<br>
+•	Spectrally distinct classes present in the data may be revealed which were not initially apparent to the user.<br>
+•	Our project goes one step further and has an added advantage over other pre-trained models; In the output our model gives out words related to object in the image instead of just stating the obvious.<br>
 •	We have to keep the backbone part obtained from the pretrained model fixed and only allow the parameters of the classifier to change. This approach is ideal when you want to train a model quickly or without much computational resources.
 
 ### Weaknesses:
-•	Spectral grouping produced by the classifier may not correspond to the information classes of interest to the user.
-•	There is limited control over the 'menu' of classes.
+•	Spectral grouping produced by the classifier may not correspond to the information classes of interest to the user.<br>
+•	There is limited control over the 'menu' of classes.<br>
 •	The performance of our model in this case might not be the best because the pretrained backbone may suffer from domain adaptation.
 
 ## Team
