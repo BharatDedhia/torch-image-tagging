@@ -1,4 +1,4 @@
-<h1>Topic Name</h1>
+<h1>IMAGE TAGGING</h1>
 This would be a short 2 line description of the topic that will allow others to understand what the implementation is aboout
 
 ## Table of Contents
