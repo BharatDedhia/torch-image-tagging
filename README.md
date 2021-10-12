@@ -1,5 +1,5 @@
-<h1>IMAGE TAGGING</h1><br>
-<b>Domain:</b> AI, ML/DL, Image Processing.
+<h1>IMAGE TAGGING</h1>
+<b>Domain:</b> AI, ML/DL, Image Processing.<br>
 <b>Description:</b>
 There are already popular models that will allow to find and determine what objects are present in an image. This use case takes the same one level further, it also contains association of tags to the images to improve their searchability. The same can be done on 2 levels, the basic level being to tag using similar meaning words which is quite simple. And the more advanced version of the same being that the interns will have to find associated words too. So, for example, if crown is an object detected, king and queen should also be tagged.
 
