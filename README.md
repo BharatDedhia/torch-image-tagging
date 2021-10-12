@@ -6,8 +6,7 @@ There are already popular models that will allow to find and determine what obje
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Objectives](#objectives)
-- [Objectives completed](#objectives-completed)
+- [Objectives and Features Completed](#Objectives-and-Features-Completed)
 - [Usage](#usage)
   - [Installation](#installation)
   - [Navigation](#navigation)
@@ -15,14 +14,17 @@ There are already popular models that will allow to find and determine what obje
   - [Mentors:](#mentors)
   - [Members:](#members)
 
-## Objectives
-* Primary Objectives of project
-* Maybe secondary too
-* Maybe a tertiary change
 
-## Objectives completed 
-  1. objectives that have been completed
 
+## Objectives and Features Completed:
+
+1.	Loaded a pretrained model - We have successfully loaded a pretrained model - RESNET 50 (Residual Network with 50 layers) which is trained on imagenet dataset.
+2.	Loaded a dataset - ImageNet dataset has over 14 million images maintained by Stanford University. It is extensively used for a large variety of Image related deep learning projects. The images belong to various classes or labels.
+3.	Specify image transformations- Various transformations like resize, center crop, normalization, etc are specified.
+4.	Load the image and pre-process it - Read the input image and perform the image transformations specified.
+5.	Model Interference - Use the pre-trained weights to find out the output vector. Each element in this output vector describes the confidence with which the model predicts the input image to belong to a particular class.
+6.	Forward Pass: Based on the scores obtained, display the predictions.
+7.	Give the synonyms for the prediction of the image using Natural Language Toolkit (NLTK) Library.
 
 ## Usage
 
