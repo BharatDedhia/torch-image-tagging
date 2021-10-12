@@ -1,5 +1,8 @@
 <h1>IMAGE TAGGING</h1>
-This would be a short 2 line description of the topic that will allow others to understand what the implementation is aboout
+<b>Domain:</b> AI, ML/DL, Image Processing.
+<b>Description:<b/>
+There are already popular models that will allow to find and determine what objects are present in an image. This use case takes the same one level further, it also contains association of tags to the images to improve their searchability. The same can be done on 2 levels, the basic level being to tag using similar meaning words which is quite simple. And the more advanced version of the same being that the interns will have to find associated words too. (so, for example, if crown is an object detected, king and queen should also be tagged)
+
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
