@@ -67,14 +67,14 @@ Next, we imported NTLK library and installed Wordnet to get a collection of word
 
 We can here summaries some of the strength and weaknesses of our project.
 
-### Strength:
+### Strengths:
 •	Human error and bias are minimized (fewer decisions are required by the user).
 •	More uniform classes are produced as output.
 •	Spectrally distinct classes present in the data may be revealed which were not initially apparent to the user.
 •	Our project goes one step further and has an added advantage over other pre-trained models; In the output our model gives out words related to object in the image instead of just stating the obvious.
 •	We have to keep the backbone part obtained from the pretrained model fixed and only allow the parameters of the classifier to change. This approach is ideal when you want to train a model quickly or without much computational resources.
 
-### Weakness:
+### Weaknesses:
 •	Spectral grouping produced by the classifier may not correspond to the information classes of interest to the user.
 •	There is limited control over the 'menu' of classes.
 •	The performance of our model in this case might not be the best because the pretrained backbone may suffer from domain adaptation.
@@ -99,4 +99,4 @@ Burhan Plumber [ b.plumber@somaiya.edu ]
 
 ## Conclusion:
 
-In a nutshell, this internship has been an excellent and rewarding experience. We can conclude that there has been a lot that we’ve learnt from our work here. Two skills that we developed during the course of this internship are managing time efficiently and secondly working together in a group environment. We were able to build a good connection with each other and we have a much better understanding in regards to deep learning and more specifically object detection. Moreover, we would like to thank our mentors <b>Hetul Mehta, Burhan Plumber, Irfan Siddavatam sir and Ashwini Dalvi Ma’am</b>; they left no stone unturned in guiding us to the best of their knowledge. Overall, our internship has been a success and being a part of such a great organization speaks for itself, we couldn't be more thankful.
+In a nutshell, this internship has been an excellent and rewarding experience. We can conclude that there has been a lot that we’ve learnt from our work here. Two skills that we developed during the course of this internship are <b>managing time efficiently and secondly working together in a group environment</b>. We were able to build a good connection with each other and we have a much better understanding in regards to deep learning and more specifically <b>object detection</b>. Moreover, we would like to thank our mentors <b>Hetul Mehta, Burhan Plumber, Irfan Siddavatam sir and Ashwini Dalvi Ma’am</b>; they left no stone unturned in guiding us to the best of their knowledge. Overall, our internship has been a success and being a part of such a great organization speaks for itself, we couldn't be more thankful.
