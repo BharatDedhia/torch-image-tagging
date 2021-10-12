@@ -29,33 +29,37 @@ There are already popular models that will allow to find and determine what obje
 ## Usage
 
 ### Installation 
-If anything you want to write about Installation, any prerequisites or something similar
+Initially we installed TorchVision module using the command given below
 
-<details>
-    <summary><b>Windows</b></summary>
+ <i>pip install torchvision</i>
 
-   1. Clone the repository
-   2. Continue steps
-</details>
+Next, we imported models from torchvision module
 
-<details>
-    <summary><b>Ubuntu</b></summary>
+ <i>from torchvision install models
+ import torch
+ dir (models)</i>
 
-   1. Clone the repository
-   2. Continue steps
-</details>
+Once we have the model with us, the next step is to transform the input image so that they have the right shape and other characteristics like mean and standard deviation. We can pre-process the input image with the help of transforms present in TochVision module.
 
-### Navigation
+ <i>from torchvision import transforms
+ transform = transforms.Compose([
+ transforms.Resize(256),
+ transforms.CenterCrop(224),
+ transforms.ToTensor(),
+ transforms.Normalize(
+ mean = [0.485, 0.456, 0.406],
+ std = [0.229, 0.224, 0.225],
+ )])</i>
 
-Various components that exist in the navigation
+Now to input image and carry out the image transformations we have specified above. We have used Pillow (PIL) module extensively with TorchVision as it’s the default image backend supported by TorchVision.
 
-<details>
-    <summary><b>Show instructions</b></summary>
+ # Import Pillow
+from PIL import Image
 
-   1. Make Admin account
-   2. Login?
-</details>
+Next, we imported NTLK library and installed Wordnet to get a collection of words and vocabulary from English language that are related to each other and grouped in some other ways.
 
+ <i>import nltk
+ nltk.download('wordnet')</i>
 
 ## Team
 
